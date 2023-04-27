@@ -1,0 +1,855 @@
+
+<!DOCTYPE html>
+
+<html class="has-navbar-fixed-top" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Home | OpenFaaS - Serverless Functions Made Simple</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Home" />
+<meta name="author" content="OpenFaaS Ltd" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Serverless Functions Made Simple with Kubernetes." />
+<meta property="og:description" content="Serverless Functions Made Simple with Kubernetes." />
+<link rel="canonical" href="https://www.openfaas.com/openfaas.github.io/" />
+<meta property="og:url" content="https://www.openfaas.com/openfaas.github.io/" />
+<meta property="og:site_name" content="OpenFaaS - Serverless Functions Made Simple" />
+<meta property="og:image" content="https://www.openfaas.com/images/preview_image.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://www.openfaas.com/images/preview_image.png" />
+<meta property="twitter:title" content="Home" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"OpenFaaS Ltd"},"description":"Serverless Functions Made Simple with Kubernetes.","headline":"Home","image":"https://www.openfaas.com/images/preview_image.png","name":"OpenFaaS - Serverless Functions Made Simple","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.openfaas.com/openfaas.github.io/siteicon.png"},"name":"OpenFaaS Ltd"},"sameAs":["https://github.com/openfaas"],"url":"https://www.openfaas.com/openfaas.github.io/"}</script>
+<!-- End Jekyll SEO tag -->
+
+	<link type="application/atom+xml" rel="alternate" href="https://www.openfaas.com/openfaas.github.io/feed.xml" title="OpenFaaS - Serverless Functions Made Simple" />
+
+	<link rel="stylesheet" href="/openfaas.github.io/css/prism.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.2.0/dist/bulma-tooltip.min.css">
+
+	
+	
+	<link rel="apple-touch-icon" href="/openfaas.github.io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/openfaas.github.io/touch-icon.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/openfaas.github.io/images/favicon.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7CRubik:300,400,500,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="/openfaas.github.io/css/openfaas.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = yes">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MX51E38CEB"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-MX51E38CEB',  { 'anonymize_ip': true });
+	</script>
+	
+
+</head>
+
+<body class="landing-page">
+    <div class="app app-default">
+        <!-- Top navigation bar -->
+        <nav id="top-nav" class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
+    <div class="container is-fluid">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/openfaas.github.io/">
+                <img src="/openfaas.github.io/images/openfaas_light.png" alt="Title Image">
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu">
+            <div class="navbar-middle">
+                
+                	
+
+                	
+                	<a  href="/openfaas.github.io/" class="navbar-item is-active" >About</a>
+                
+                	
+
+                	
+                	<a  href="/openfaas.github.io/blog/" class="navbar-item" >Blog</a>
+                
+                	
+
+                	
+                	<a  href="/openfaas.github.io/pricing/" class="navbar-item" >Pricing</a>
+                
+                	
+
+                	
+                	<a  href="/openfaas.github.io/support/" class="navbar-item" >Support</a>
+                
+                	
+
+                	
+                	<a  href="https://openfaas.gumroad.com/" class="navbar-item" >eBooks</a>
+                
+                	
+
+                	
+                	<a  href="/openfaas.github.io/team/" class="navbar-item" >Team</a>
+                
+                	
+
+                	
+                	<a  href="https://docs.openfaas.com/" class="navbar-item" >Docs</a>
+                
+            </div>
+
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div id="git-stars" class="navigation-item github-repo">
+                    <a href="https://github.com/openfaas" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span id="stars-counter">31.1k</span>
+                        <span>View on github</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+        <!-- Content -->
+        <section class="hero is-primary is-small">
+    <div class="hero-body has-text-centered">
+        <div class="container">
+	<p class="intro-logo">
+		<img src="/openfaas.github.io/images/openfaas/whale.png" alt="logo">
+	</p>
+</div>
+
+<div class="container">
+	<h2 class="title is-size-3-mobile is-size-2-tablet is-size-1-desktop  is-capitalized has-text-weight-bold">
+		Serverless Functions, Made Simple.
+	</h2>
+	<h2 class="is-size-5-mobile is-size-4-tablet is-size-3-desktop has-text-weight-light">
+		OpenFaaS® makes it simple to deploy both functions and existing code to Kubernetes
+	</h2>
+</div>
+
+    </div>
+
+    <div class="hero-body wavy">
+        <div class="yt-player-container">
+    <div class="yt-player-iframe-wrapper ready">
+        <a href="https://www.youtube.com/watch?v=NckMekZXRt8">
+            <video id="sample-video" muted loop autoplay poster="/openfaas.github.io/images/openfaas/yt-cover.jpg">
+                <source src="/openfaas.github.io/videos/landing-video.mp4" type="video/mp4">
+            </video>
+
+        <div id="yt-player-play"></div>
+        </a>
+    </div>
+</div>
+
+    </div>
+
+    <div class="hero-body grey features">
+        <div class="container">
+    <div>
+        <p class="is-size-5-mobile is-size-4-tablet is-size-3-desktop has-text-grey-darker has-text-centered mb-5">
+            Deploy to production with OpenFaaS Pro
+        </p>
+
+    </div>
+    <div class="columns is-multiline">
+
+        <div class="column is-12-tablet is-4-desktop">
+            <div class="columns is-multiline feature-box">
+                <div class="column is-narrow" style="width: 170px;">
+                    <img src="/openfaas.github.io/images/openfaas/anywhere.svg" alt="Run anywhere">
+                </div>
+                <div class="column has-text-centered-mobile">
+                    <h1 class="title is-size-4 has-text-grey-darker">
+                        Anywhere
+                    </h1>
+                    <h2 class="subtitle is-size-5 has-text-grey-darker">
+                        Deploy your functions on-premises or in the cloud, with portable OCI images.
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="column is-12-tablet is-4-desktop">
+            <div class="columns is-multiline feature-box">
+                <div class="column is-narrow" style="width: 150px;">
+                    <img src="/openfaas.github.io/images/openfaas/anycode.svg" alt="Any code">
+                </div>
+                <div class="column has-text-centered-mobile">
+                    <h1 class="title is-size-4 has-text-grey-darker">
+                        Any code
+                    </h1>
+                    <h2 class="subtitle is-size-5 has-text-grey-darker">
+                        Write functions in any language, and bring your existing microservices along too.
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="column is-12-tablet is-4-desktop">
+            <div class="columns is-multiline feature-box">
+                <div class="column is-narrow" style="width: 150px;">
+                    <img src="/openfaas.github.io/images/openfaas/anyscale.svg" alt="Any scale">
+                </div>
+                <div class="column has-text-centered-mobile">
+                    <h1 class="title is-size-4 has-text-grey-darker">
+                        Any scale
+                    </h1>
+                    <h2 class="subtitle is-size-5 has-text-grey-darker">
+                        Pro features scale your functions to meet demand, and down to zero when idle.
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+    </div>
+
+    <!-- <div class="hero-body white contact-alex">
+        <div class="container">
+    <div class="columns is-multiline">
+        <div class="column is-12 is-spaces-top-x2">
+            <div class="has-text-centered">
+                <div class="card-content">
+                    <h1 class="title is-size-4 is-size-3-desktop has-text-grey-darker">
+                       Understand the value of Serverless
+                    </h1>
+                    <h1 class="title has-text-weight-light is-size-4 is-size-4-desktop has-text-grey">
+                        In <i>Serverless For Everyone Else</i>, you'll gain a working knowledge of the value and use-cases of serverless functions. You'll then build your own with Node.js and learn how to secure and monitor them.
+                    </h1>
+                </div>
+                <a href="https://gumroad.com/l/serverless-for-everyone-else" target="_top" class="button is-primary is-large">
+                    <span class="icon"><i class="fas fa-store"></i></span>
+                    <span>GET THE EBOOK</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </div> -->
+
+    <div class="hero-body grey-darker-bis description">
+        <div class="container">
+    <div class="columns is-multiline">
+        <div class="column is-12-tablet is-6-desktop is-spaced-bottom">
+            <h2 class="title is-size-3-tablet is-size-2-desktop has-text-grey-darker">
+                Run your code anywhere with the same unified experience.
+            </h2>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                You can deploy OpenFaaS anywhere you have Kubernetes
+            </p>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                Our templates follow best practices meaning you can write and deploy a new function to production within a few minutes, knowing it will scale to meet demand.
+            </p>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                OpenFaaS Pro then builds on our Open Source codebase to bring flexible auto-scaling, event-connectors, monitoring, a new dashboard, GitOps and various levels of support.
+            </p>
+        </div>
+        <div class="column is-12-tablet is-5-desktop is-offset-1-desktop">
+            <div class="columns is-multiline">
+                <div class="column is-12 is-spaced-bottom">
+                    <div class="columns">
+                        <div class="column is-3-tablet has-text-centered-mobile">
+                            <p><img src="/openfaas.github.io/images/openfaas/template.svg" alt="Reduce Boilerplating"></p>
+                        </div>
+                        <div class="column">
+                            <h2 class="title is-size-4 has-text-grey-darker">
+                                Templates that just work
+                            </h2>
+                            <p class="title has-text-weight-light is-size-5-tablet is-size-4 has-text-grey">
+                                Get code into production within minutes using our templates, or create your own.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-12 is-spaced-bottom">
+                    <div class="columns">
+                        <div class="column is-centered-mobile is-centered-tablet is-6-mobile is-3-tablet has-text-centered-mobile has-text-grey-darker">
+                            <p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v8.25A2.25 2.25 0 006 16.5h2.25m8.25-8.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-7.5A2.25 2.25 0 018.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 00-2.25 2.25v6" />
+                              </svg>
+                              </p>
+                        </div>
+                        <div class="column">
+                            <h2 class="title is-size-4 has-text-grey-darker">
+                                Efficient scaling
+                            </h2>
+                            <p class="title has-text-weight-light is-size-5-tablet is-size-4 has-text-grey">
+                                Your functions can be fine-tuned to scale to match the type of traffic they receive, including to zero to save on costs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-12 is-spaced-bottom">
+                    <div class="columns">
+                        <div class="column is-6-mobile is-3-tablet is-centered-mobile is-centered-tablet has-text-centered-mobile has-text-grey-darker">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+                              </svg>
+                        </div>
+                        <div class="column">
+                            <h2 class="title is-size-4 has-text-grey-darker">
+                                Event-driven workloads
+                            </h2>
+                            <p class="title has-text-weight-light is-size-5-tablet is-size-4 has-text-grey">
+                                Invoke functions through events from Apache Kafka, AWS SQS, Postgresql, Cron and MQTT. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column is-3 solutions">
+                <a href="/openfaas.github.io/pricing" class="button is-primary solutions-button">
+                    Learn about OpenFaaS Pro
+                </a>
+        </div>
+
+    </div>
+
+</div>
+
+    </div>
+
+    <div class="hero-body white description">
+        <div class="container">
+    <h2 class="title is-size-3-tablet is-size-2-desktop has-text-grey-darker">
+        Solutions
+    </h2>
+    <div class="columns is-multiline">
+
+        <div class="column is-12-tablet is-6-desktop is-spaced-bottom">
+            <h2 class="title is-size-4 has-text-grey-darker">
+                A sandbox for your customer's code
+            </h2>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                With OpenFaaS Enterprise, you can take code snippets from your customers and use them to extend your platform.
+            </p>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                You can use the Function Builder API to turn source code into functions, which can be deployed via the OpenFaaS REST API.
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                Network policies, resource limits, a runtime class, read-only filesystem and dedicated namespace means their code will be as isolated as possible.
+            </p>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                Who's doing this already? Waylay (for custom functions for industrial IoT), Patchworks (customer extensions for e-commerce), LivePerson (for customer extensions) and Cognite (for custom ML/data-science functions).
+            </p>
+        </div>
+
+        <div class="column is-12-tablet is-6-desktop is-spaced-bottom">
+            <h2 class="title is-size-4 has-text-grey-darker">
+                ETL and data-pipelines
+            </h2>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                OpenFaaS Pro autoscaling can be fine-tuned to match the execution pattern of your functions, and to retry failed invocations.
+            </p>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                Through JetStream for OpenFaaS, you can fan out to many thousands of executions, executing in parallel and scaling automatically.
+            </p>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                ML models can be deployed as functions, and scaled, even if they run for a long time.
+            </p>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                See also: <a href="https://www.openfaas.com/blog/fan-out-and-back-in-using-functions/" style="text-decoration: underline;">Exploring the Fan out and Fan in pattern with OpenFaaS</a>
+            </p>
+        </div>
+
+        <div class="column is-12-tablet is-6-desktop is-spaced-bottom">
+            <h2 class="title is-size-4 has-text-grey-darker">
+                Kubernetes, made usable
+            </h2>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                OpenFaaS enriches Kubernetes with scaling, queueing, monitoring and event triggers, so your team can focus on shipping features.
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                Customers have told us that even from early on, they were shipping new functionality to production within hours.
+            </p>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                Functions can be run on-demand, or on a schedule, and can be triggered by events from your existing systems like Apache Kafka or AWS. If you invoke them asynchronously, you'll also get to benefit from retries without writing any additional code.
+            </p>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                Deel migrated from AWS Lambda to Kubernetes, only to find that their code would no longer scale how they needed. They reached out to us, and we wrote up a reference architecture. 
+            </p>
+            </p>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                Learn more: <a href="https://www.openfaas.com/blog/pdf-generation-at-scale-on-kubernetes/" style="text-decoration: underline;">Generate PDFs at scale on Kubernetes using OpenFaaS and Puppeteer</a>
+            </p>
+        </div>
+
+        <div class="column is-12-tablet is-6-desktop is-spaced-bottom">
+            <h2 class="title is-size-4 has-text-grey-darker">
+                One function, many clouds
+            </h2>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                Does your product need to run on multiple different clouds? Perhaps you're considering writing an abstraction layer to cover your bases?
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                When faced with this question, <a href="https://www.openfaas.com/blog/low-code-automation/" style="text-decoration: underline;">Waylay.io</a> built their low-code platform with OpenFaaS.
+            </p>
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                OpenFaaS functions are built as OCI images, which means they're portable, and integrate well with teams who use containers or Kubernetes already.
+            </p>
+
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey mt-2">
+                See also: <a href="https://www.openfaas.com/blog/low-code-automation/" style="text-decoration: underline;">Low-code automation with OpenFaaS</a>
+        </div>
+
+    </div>
+
+</div>
+
+    </div>
+
+    <div class="hero-body grey demo">
+        <div class="container">
+    <div class="columns is-multiline">
+        <div class="column is-12 is-spaced-bottom">
+            <div class="columns">
+                <div class="column is-8 is-offset-2 has-text-centered">
+                    <h2 class="title is-size-3 is-size-2-desktop has-text-grey-darker">
+                        We speak your language
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="column is-12 has-text-centered  is-spaced-bottom">
+            <div class="columns">
+                <div class="column is-8 is-offset-2 has-text-centered">
+                    <p class="title has-text-weight-light is-size-5 is-size-4-desktop has-text-grey">
+                        Functions can be written in any language, and are built into portable OCI images.
+                    </p>
+                    <p class="title has-text-weight-light is-size-5 is-size-4-desktop has-text-grey">
+                        We have official templates available for: Go, Java, Python, C#, Ruby, Node.js, PHP, or you can write your own.
+                    </p>
+                    <p class="title has-text-weight-light is-size-5 is-size-4-desktop has-text-grey">
+                        You can even bring along your existing microservices written with custom frameworks like Express.js, Vert.x, Flask, ASP.NET Core, FastAPI and Django.
+                    </p>
+                    <p class="title has-text-weight-light is-size-5 is-size-4-desktop has-text-grey">
+                        Find templates in <a class="underline" href="https://docs.openfaas.com/cli/templates/">the store</a> or build your own.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container code-samples">
+    <div class="columns">
+        <div class="column is-8 is-offset-2">
+            <div class="is-fullwidth">
+                <!-- Tab links -->
+                <div class="tab">
+                    <button class="tablinks" onclick="openCode(event, 'Javascript')" id="defaultOpen">Node.js</button>
+                    <button class="tablinks" onclick="openCode(event, 'Python')">Python</button>
+                    <button class="tablinks" onclick="openCode(event, 'Go')">Go</button>
+                    <button class="tablinks" onclick="openCode(event, 'Dockerfile')">Dockerfile</button>
+                    <button class="tablinks" onclick="openCode(event, 'Bash')">Bash</button>
+                    <button class="tablinks" onclick="openCode(event, 'Java')">Java</button>
+                </div>
+            </div>
+
+            <div id="Java" class="tabcontent">
+<pre><code class="language-shell">$ faas-cli new --lang java11 java-fn
+
+</code></pre>
+<div class="has-text-grey-darker has-text-weight-light">
+    Handler.java
+</div>
+    <pre><code class="language-java">package com.openfaas.function;
+
+import com.openfaas.model.IHandler;
+import com.openfaas.model.IResponse;
+import com.openfaas.model.IRequest;
+import com.openfaas.model.Response;
+
+public class Handler implements com.openfaas.model.IHandler {
+
+    public IResponse Handle(IRequest req) {
+        Response res = new Response();
+	    res.setBody("Hello, world!");
+
+	    return res;
+    }
+}</code></pre>
+</div>
+            <div id="Go" class="tabcontent">
+<pre><code class="language-shell">$ faas-cli template store pull golang-middleware
+$ faas-cli new --lang golang-middleware go-fn
+</code></pre>
+<div class="has-text-grey-darker has-text-weight-light">
+    handler.go
+</div>
+    <pre><code class="language-go">package function
+
+import (
+	"fmt"
+	"io"
+	"net/http"
+)
+
+func Handle(w http.ResponseWriter, r *http.Request) {
+	var input []byte
+
+	if r.Body != nil {
+		defer r.Body.Close()
+		body, _ := io.ReadAll(r.Body)
+		input = body
+	}
+
+	w.WriteHeader(http.StatusOK)
+	w.Write([]byte(fmt.Sprintf("Body: %s", string(input))))
+}
+</code></pre>
+</div>
+            <div id="Python" class="tabcontent">
+<pre><code class="language-shell">$ faas-cli template store pull python3-http
+$ faas-cli new --lang python3-http python3-fn
+</code></pre>
+<div class="has-text-grey-darker has-text-weight-light">
+    main.py
+</div>
+    <pre><code class="language-python">def handle(event, context):
+    return {
+        "statusCode": 200,
+        "body": "Hello from OpenFaaS!"
+}</code></pre>
+</div>
+
+            <div id="Javascript" class="tabcontent">
+<pre><code class="language-shell">$ faas-cli new --lang node17 javascript-fn 
+</code></pre>
+<div class="has-text-grey-darker has-text-weight-light">
+    handler.js
+</div>
+    <pre><code class="language-javascript">"use strict"
+
+module.exports = async (event, context) => {
+  const result = {
+    status: "Received input: " + JSON.stringify(event.body)
+  };
+
+  return context
+    .status(200)
+    .succeed(result);
+}</code></pre>
+</div>
+
+            <div id="Bash" class="tabcontent">
+<pre><code class="language-shell">$ faas-cli template store pull bash-streaming
+$ faas-cli new --lang bash-streaming bash-fn
+</code></pre>
+<div class="has-text-grey-darker has-text-weight-light">
+    handler.sh
+</div>
+    <pre><code class="language-bash">#!/bin/sh
+for i in $(seq 1 100)
+do
+    sleep 0.001
+    echo "Hello" $i
+done</code></pre>
+</div>
+
+            <div id="Dockerfile" class="tabcontent">
+<pre><code class="language-shell">$ faas-cli new --lang dockerfile ruby
+</code></pre>
+<div class="has-text-grey-darker has-text-weight-light">
+    Dockerfile
+</div>
+    <pre><code class="language-dockerfile">FROM ruby:2.7-alpine
+
+WORKDIR /home/app
+COPY    .   .
+
+RUN bundle install
+
+EXPOSE 8080
+
+CMD ["ruby", "main.rb"]</code></pre>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    function openCode(evt, cityName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+</script>
+<script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+
+    </div>
+
+    <div class="hero-body grey-darker-bis sponsors">
+        <div class="container">
+    <div class="columns is-multiline">
+        <div class="column is-12 is-spaced-bottom has-text-centered">
+            <h2 class="title is-size-3 is-size-2-desktop has-text-grey-darker">
+                Thank you to our sponsors
+            </h2>
+        </div>
+
+        
+            <div class="column is-12 has-text-centered">
+                <h1 class="title is-size-5 is-size-4-desktop has-text-grey sponsors-category">
+                    platinum Tier
+                </h1>
+            </div>
+
+            <div class="column is-12 has-text-centered">
+                <div class="columns">
+                    
+                        
+                            <div class="column of-sponsor-logo">
+                                <a href="https://www.linode.com/openfaas?utm_source=openfaas&utm_medium=web&utm_campaign=sponsorship"  title="Linode" target="_blank">
+                                    <figure class="image">
+                                        <img class="of-sponsor-logo-size-platinum" src="images/sponsors/linode.svg" alt="Linode">
+                                    </figure>
+                                </a>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        
+        <div class="column is-12 has-text-centered">
+            <p class="has-text-weight-light is-size-5 is-size-4-desktop has-text-grey sponsors-category">Become an individual or corporate sponsor via GitHub:</p>
+            <a href="/openfaas.github.io/support" class="button is-primary">
+                Become a sponsor
+                <span class="icon">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <div class="hero-body grey call-to-action call-to-action-cards">
+        <div class="container">
+    <div class="columns is-multiline">
+        <div class="column is-12 is-spaced-bottom">
+            <div class="cards-wrapper">
+
+                <div class="card has-text-centered">
+                    <div class="card-content">
+                        <div class="card-logo">
+                            <figure class="image">
+                                <img src="/openfaas.github.io/images/openfaas/whale.png" alt="logo">
+                            </figure>
+                        </div>
+                        <h3 class="title is-size-4 is-size-3-desktop has-text-grey-darker">
+                            Start your Serverless Journey
+                        </h3>
+                        <h3 class="title has-text-weight-light is-size-5 is-size-4-desktop has-text-grey">
+                            Understand the use-cases for functions and learn at your own pace with the OpenFaaS handbook: <i>Serverless For Everyone Else</i>.
+                        </h3>
+
+                    </div>
+                    <a href="https://gumroad.com/l/serverless-for-everyone-else" target="_blank" class="button is-primary is-large">
+                        <span class="icon"><i class="fas fa-book-reader"></i></span>
+                        <span>GET THE EBOOK</span>
+                    </a>
+                </div>
+
+                <div class="card has-text-centered">
+                    <div class="card-content">
+                        <div class="card-logo">
+                            <figure class="image">
+                                <span style="font-size: 60pt" class="icon"><i class="fas fa-server"></i></span>
+                            </figure>
+                        </div>
+                        <h3 class="title is-size-4 is-size-3-desktop has-text-grey-darker">
+                            Run OpenFaaS in Production
+                        </h3>
+                        <p class="title has-text-weight-light is-size-5 is-size-4-desktop has-text-grey">
+                            OpenFaaS Pro is a commercially licensed version of OpenFaaS meant for production use.
+                        </p>
+                        <p class="title has-text-weight-light is-size-5 is-size-4-desktop has-text-grey">
+                            You'll gain access to new features to make your team more efficient and productive.
+                        </p>
+                    </div>
+
+                    <a href="https://openfaas.com/pricing" class="button is-primary is-large">
+                        <span class="icon"><i class="fas fa-server"></i></span>
+                        <span>VIEW PRICING</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+
+    <div class="hero-body grey call-to-action call-to-action-community">
+        <div class="container">
+    <div class="columns is-multiline">
+        <div class="column is-12 is-spaced-top-x2">
+            <div class="columns is-multiline">
+                <div class="column is-6 is-3-desktop">
+                    <a class="cta-button button" href="https://docs.openfaas.com/">
+                        <img src="/openfaas.github.io/images/openfaas/landing-page-book.png" alt="book">
+                        <span>Read the documentation</span>
+                    </a>
+                </div>
+
+                <div class="column is-6 is-3-desktop">
+                    <a class="cta-button button" href="https://twitter.com/openfaas">
+                        <img src="/openfaas.github.io/images/openfaas/landing-page-twitter.png" alt="twitter">
+                        <span>Follow @OpenFaaS on Twitter</span>
+                    </a>
+                </div>
+
+                <div class="column is-6 is-3-desktop">
+                    <a class="cta-button button" href="https://github.com/openfaas/">
+                        <img src="/openfaas.github.io/images/openfaas/landing-page-github.png" alt="github">
+                        <span>Contribute on GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+</section>
+
+
+        <!-- Footer nav -->
+        <nav id="bottom-nav" class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="container is-fluid">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/openfaas.github.io/">
+                <img src="/openfaas.github.io/images/openfaas/footer-of-logo.png" alt="logo">
+            </a>
+            <p class="navbar-item is-size-5 is-size-4-fullhd has-text-weight-bold is-hidden-mobile">Serverless Functions, Made Simple.</p>
+        </div>
+
+        <div class="navbar-menu is-visible-desktop">
+            <div class="navbar-end">
+                
+                	
+
+                	
+                	<a  href="/openfaas.github.io/" class="navbar-item is-active" >About</a>
+                
+                	
+
+                	
+                	<a  href="/openfaas.github.io/blog/" class="navbar-item" >Blog</a>
+                
+                	
+
+                	
+                	<a  href="/openfaas.github.io/pricing/" class="navbar-item" >Pricing</a>
+                
+                	
+
+                	
+                	<a  href="/openfaas.github.io/support/" class="navbar-item" >Support</a>
+                
+                	
+
+                	
+                	<a  href="https://openfaas.gumroad.com/" class="navbar-item" >eBooks</a>
+                
+                	
+
+                	
+                	<a  href="/openfaas.github.io/team/" class="navbar-item" >Team</a>
+                
+                	
+
+                	
+                	<a  href="https://docs.openfaas.com/" class="navbar-item" >Docs</a>
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+
+		<!-- Footer nav -->
+        <footer class="footer">
+	<div class="container is-fluid">
+		<div class="footer-wrapper">
+			<div class="footer-wrapper-left">
+				<p>
+					OpenFaaS &reg; was founded by <a href="https://www.alexellis.io/">Alex Ellis</a> and is hosted by OpenFaaS Ltd.<br>
+					OpenFaaS Ltd. is a registered company in England & Wales with number: 11076587, registered address: Peterborough UK.
+				</p>
+			</div>
+			<div class="footer-wrapper-right">
+                <a href="https://landscape.cncf.io/format=serverless">
+                    <small>Featured on</small>
+                    <img src="/openfaas.github.io/images/openfaas/cloud-native.png" alt="CNCF Logo">
+                </a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+    </div>
+
+	<script src="/openfaas.github.io/js/main.js"></script>
+	<script src="/openfaas.github.io/js/landing.js"></script>
+	<script src="/openfaas.github.io/js/youtubePlayer.js"></script>
+	<script src="/openfaas.github.io/js/prism.js"></script>
+</body>
+
+</html>
